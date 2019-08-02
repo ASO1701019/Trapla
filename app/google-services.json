@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "373385477088",
+    "firebase_url": "https://trapla.firebaseio.com",
+    "project_id": "trapla",
+    "storage_bucket": "trapla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373385477088:android:e824caba5d787ca7",
+        "android_client_info": {
+          "package_name": "jp.ac.asojuku.st.trapla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373385477088-ri9rj0b81k5ono6svk2vpa89l6eipu2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY6_mmwQ4BTj2LX_5JoV0CIRl4KfaqAOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373385477088-ri9rj0b81k5ono6svk2vpa89l6eipu2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

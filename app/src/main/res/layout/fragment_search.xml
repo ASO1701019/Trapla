@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/springbutton"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="84dp"
+            android:text="春"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/summerbutton"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="84dp"
+            android:text="夏"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/fallbutton"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="28dp"
+            android:text="秋"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/springbutton" />
+        <Button
+            android:id="@+id/winterbutton"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="28dp"
+            android:text="冬"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/summerbutton" />
+        <SearchView
+            android:id="@+id/serch"
+            android:layout_width="354dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
